@@ -71,6 +71,6 @@ function resetGame() {
   board = Array(9).fill("");
   turn = "0";
   gameOver = false;
-  status.textContent = "";
+  
   renderBoard();
 }
